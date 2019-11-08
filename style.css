@@ -1,0 +1,246 @@
+body {
+    padding-top: 65px;
+    margin: 12px;
+}
+
+.navbar-brand {
+    font-family: "Verdana", Times, serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+.nav-item {
+    padding-left: 15px;
+}
+
+.card-header {
+    font-family: "Verdana", Times, serif;
+    font-weight: bolder;
+}
+
+.img-thumbnail {
+    border: 0 none;
+    box-shadow: 2px 2px 4px #1969b3;
+    color: #ffffff;
+}
+
+.img-thumbnail:hover {
+    box-shadow: 2px 2px 4px #1969b3;
+    color: #ffffff;
+}
+
+.col-sm-6 {
+    padding: 16px;
+}
+
+.card-title {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.hovereffect.card-img {
+    border: 2px 2px black;
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transform: scale(1.01);
+}
+
+.hovereffect:hover img {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+#image {
+    width: 60%;
+    height: 60%;
+    margin: 10px;
+    padding: 5px;
+}
+
+.navbar-custom .navbar-toggler {
+    border-color: #ffffff;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url(Resources/Images/menu-icon.png);
+}
+
+.navbar-custom {
+    background-color: #1969b3;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #ffffff;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-custom .nav-item:hover .nav-link,
+.navbar-custom .nav-item:focus .nav-link {
+    color: #ffffff;
+    background-color: #1969b3;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.active-nav {
+    color: #ffffff;
+    background-color: #1969b3;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-custom .dropdown-menu {
+    background-color: #1969b3;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.navbar-custom .dropdown-item {
+    color: #ffffff;
+}
+
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    color: #ffffff;
+    background-color: #1969b3;
+    border-radius: 10px;
+}
+
+.card-custom .card-header {
+    background-color: #1969b3;
+    box-shadow: 1px 1px 3px #1969b3;
+    color: #ffffff;
+    text-shadow: 2px 2px #1969b3;
+}
+
+.card-custom {
+    box-shadow: 2px 2px 4px #1969b3;
+}
+
+footer.footer {
+    background-color: #e9ecef;
+    border-radius: .3rem;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.fab,
+.fas.fa-at {
+    color: black;
+    margin: 5px 2px;
+}
+
+.fab:hover,
+.fas.fa-at:hover {
+    opacity: 0.45;
+}
+
+.active-image {
+    border: 4px solid #1969b3;
+    padding: 0;
+}
+
+td,
+th {
+    text-align: center;
+}
+
+.thead-custom {
+    background-color: #1969b3;
+    color: #ffffff;
+}
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+    background-color: #1969b3;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+hr {
+    border-width: 2px;
+}
+
+h1 {
+    /* Put a 15-pixel margin at the bottom of the heading. */
+    margin-bottom: 15px;
+    /* Change the size of your font to 60 pixels high. */
+    font-size: 48px;
+    /* This will color the heading font white. */
+    color: rgb(255, 255, 255);
+    /* Align the text to the center of its enclosing element (e.g. div). */
+    text-align: center;
+    /* Underline the text. */
+    text-decoration: underline;
+    /* The background of the heading element will now be black. */
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+h2 {
+    margin-top: 14px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+    color: WHITE;
+    background-color: #1969b3;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+h4 {
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+    color: #1969b3;
+    background-color: #ffffff;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+p {
+    text-align: left;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Verdana;
+}
+
+ul {
+    text-align: left;
+    font-size: 18px;
+    list-style-position: inside;
+    font-weight: normal;
+    font-family: Verdana;
+    color: #ffffff;
+    background-color: #1969b3;
+}
